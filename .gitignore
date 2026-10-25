@@ -1,0 +1,27 @@
+# Rust
+/target/
+**/target/
+
+# Android / Quest builds
+*.apk
+*.aab
+/local.properties
+
+# Secrets and local config
+.env
+.env.*
+*.key
+
+# Large local data (use project files or Git LFS instead)
+/recordings/
+/models/
+*.onnx
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
